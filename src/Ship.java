@@ -16,4 +16,8 @@ public class Ship {
     public boolean isSunk() {
         return hits >= size;  // Makes sure that ship is counted as sunk when fully hit
     }
+
+    public int getSize() {
+        return size;
+    }
 }
